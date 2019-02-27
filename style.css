@@ -1,0 +1,193 @@
+
+body{
+    
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+.spotify-logo{
+    width: 132px;
+    height: 40px;
+    margin: 20px 0; 
+    display:flex;
+    align-self: flex-start;
+}
+nav {
+    height: 80px;
+    background-color:rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width:100%;
+    margin:0px;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+header {
+    height: 805px;
+    background-color: orange;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute; 
+    top:0;
+    right: 0px;
+    left: 0px;
+  }
+footer {
+    height: 538px;
+    background-color: black;
+  }
+
+.container{
+    height: inherit; /* get parent height */
+    width: 1170px;   /* add 970px for smaller screen */
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+  }
+
+nav ul {
+    width: 484px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+  }
+
+nav a {
+    color: white;
+    text-decoration: none;
+  }
+nav li {
+    font-weight: bold;
+    display: inline;
+    margin: 15px;
+  }
+nav a:hover {
+    color: #1db954;
+  }
+
+.index-homepage .wrap {
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+  }
+header { 
+    height: 805px; 
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+
+  }
+.hero-img {
+    height: inherit;
+    background-image: url(img/hero-burst.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+#title {
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  
+#text{
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: -.04em;
+    letter-spacing: 0.03cm;
+
+  }
+header .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.btn-spotify {
+    width: 260px;
+    margin: 0 auto;
+    color: white;
+    background-color: #1db954;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+  .btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+  
+  .container-signup{
+    height: 107px; /* get parent height */
+    width: 100%;   /* add 970px for smaller screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #222326;
+  }
+
+  .body-signup{
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .spotify-logo-signup{
+    width:197px;
+    height:59px;
+
+  }
+
+  .line-thru{
+    display: block;
+    font-size: .875em;
+    margin-bottom: 1em;
+    position: relative;
+    text-align: center;
+  }
+
+  .btn-spotify-signup{
+    display:flex;
+    margin-bottom: 14px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #3B5998;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+    letter-spacing: 2px;
+  }
+  .btn-spotify-signup:hover {
+    cursor: pointer;
+    background-color: #3a61b3;
+  }
+
+  .form-signup{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  }
+  form{
+    width: 426px;
+  }
